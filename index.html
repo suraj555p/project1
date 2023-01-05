@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer landing page</title>
+    <style>   
+         .f{
+            font-size: 66px;
+            color: white;
+            padding-left: 201px;
+        }
+        .f1{
+            font-size: 48px;
+            color: white;
+        }
+        .container{
+            position: absolute;
+            background: url('premium_photo-1661549678379-28f01d4892e1.avif') no-repeat center center/cover;
+            top: 0;
+            left: 0;
+            height: 97%;
+            width: 100%;
+            opacity: 0.9;
+        }
+        .work{
+            position: relative;
+            background-color: black;
+            color: white;
+            text-align: center;
+            top: 578px;
+            height: 100px;
+            margin-left: -8px;
+            width: 1536px;
+            font-size: 50px;
+            padding-top: 37px;
+        }
+        #s1{
+            font-weight: bold;
+        }
+        .client{
+            display: flex;
+            position: relative;
+            top: 620px;
+            align-items: center;
+            justify-content: center;
+            font-size: 15px;
+            padding: 10px 99px 32px 175px;
+        }
+        #photo-1{
+            box-shadow: 5px 5px cornsilk;
+        }
+        #photo-2{
+            position: relative;
+            margin-left: 40px;
+            box-shadow: 5px 5px cornsilk;
+        }
+        #photo-3{
+            position: relative;
+            margin-left: 40px;
+            box-shadow: 5px 5px cornsilk;
+        }
+        .mydetails{
+            position: relative;
+            display: flex;
+            top:630px;
+        }
+        .contact{
+          background-color: rgba(2, 78, 2, 0.535);
+        }
+        .about{
+          background-color: brown;
+        }
+        footer{
+            position:absolute;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.938);
+            color: white;
+            top:170px;
+            width: 100%;
+        }
+
+        @media (max-width : 768px){
+            .container{
+                width: 186%;
+                height: 109%;
+            }
+            .work{
+                top: 827px;
+            }
+            .f{
+                font-size: 100px;
+                padding-left: 87px;
+                position: relative;
+                top: 107px;
+            }
+            .f1{
+                font-size: 73px;
+                position: relative;
+                top: 107px;
+            }
+            .client{
+                display: flex;
+                position: relative;
+                top: 847px;
+                left: 15px;
+                flex-direction: column;
+                font-size: 35px;
+                padding: 113px 199px -14px 175px;
+                width: 146%;
+            }
+            #photo-1{
+                margin-left: 40px;
+            }
+            .mydetails{
+                position: relative;
+                display: flex;
+                top: 866px;
+                font-size: 31px;
+                flex-direction: column;
+                width: 180%;
+            }
+            footer{
+                position: absolute;
+                top: 659px;
+              }
+        }
+
+        @media (max-width : 500px){
+            .container{
+                width: 298%;
+            }
+            .client{
+                font-size: 52px;
+                width: 248%;
+            }
+            .mydetails{
+                font-size: 41px;
+                width: 307%;
+            }
+            footer{
+                position: absolute;
+                top: 965px;
+            }
+        }
+
+        @media (max-width : 400px)
+        {   .container{
+                    width: 399%;
+                    height: 146%;
+                }
+            .work{
+                right: 235px;
+                width: 480%;
+            }
+            .f{
+                font-size: 108px;
+                padding-left: 4px;
+
+            }
+            .client{
+                width: 191%;
+                left: -96px;
+            }
+            .mydetails{
+                width: 414%;
+            }
+            .contact{
+                padding: 56px;
+            }
+            .about{
+                padding: 56px;
+            }
+            footer{
+                position: absolute;
+                top: 1312px;
+            }
+
+        }
+        @media( max-width : 320px){
+            .work{
+                top: 1311px;
+            }
+            .mydetails{
+                width: 321%;
+            }
+            .client{
+                margin-top: 575px;
+            }
+            footer{
+                position: absolute;
+                top: 1527px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="f">Hi,</span>
+        <span class="f1"> I am suraj parmar </span>
+        <br>
+        <span class="f">FULL STACK DEVELOPER</span>
+    </div>
+    <div class="work">
+        <span>WORK , I CAN DO FOR</span>
+        <span id="s1">YOU</span>
+    </div>
+    <section class="client">
+        <div class="photo" id="photo-1">
+            <img src="web-development-coding-programming-internet-technology-business-concept-web-development-coding-programming-internet-technology-121903546.jpg" alt="img not found" height="250" width="300">
+             <h2>Web Development</h2>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cum ipsa nemo sequi fuga atque eaque tenetur minus dolore eligendi, obcaecati dolor laborum earum debitis ut rem, omnis similique fugit?
+             Numquam quaerat quam eius excepturi? Odio nam ad commodi, aut dignissimos vero adipisci possimus velit et quisquam dolorum culpa repudiandae vitae! Totam est nobis magnam quas laudantium, consequatur at illum.</p>
+        </div>
+        <div class="photo" id="photo-2">
+             <img src="app-development-banner_33099-1720.webp" alt="img not found" height="250" width="300">
+             <h2>App Development</h2>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cum ipsa nemo sequi fuga atque eaque tenetur minus dolore eligendi, obcaecati dolor laborum earum debitis ut rem, omnis similique fugit?
+             Numquam quaerat quam eius excepturi? Odio nam ad commodi, aut dignissimos vero adipisci possimus velit et quisquam dolorum culpa repudiandae vitae! Totam est nobis magnam quas laudantium, consequatur at illum.</p>
+            </div>
+        <div class="photo" id="photo-3">
+             <img src="gradient-ui-ux-background_23-2149052117.webp" alt="img not found" height="250" width="300">
+             <h2>UI/UX</h2>
+             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum cum ipsa nemo sequi fuga atque eaque tenetur minus dolore eligendi, obcaecati dolor laborum earum debitis ut rem, omnis similique fugit?
+             Numquam quaerat quam eius excepturi? Odio nam ad commodi, aut dignissimos vero adipisci possimus velit et quisquam dolorum culpa repudiandae vitae! Totam est nobis magnam quas laudantium, consequatur at illum.</p>
+            </div>
+    </section>
+    <section class="mydetails">
+        <div class="contact">
+          <h2>Contact Me</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere animi minima iusto. Quia nam quas nostrum consectetur autem! At nihil molestiae perspiciatis! Tempore laboriosam, dolores illo necessitatibus labore perspiciatis.
+          Saepe distinctio modi ex quod, tenetur iusto quaerat voluptate tempora maxime ipsum nam asperiores iste officia? Omnis est maxime dolor, ratione a dolores, molestias temporibus deserunt voluptatum, distinctio architecto mollitia.</p>
+        </div>
+        <div class="about">
+          <h2>About Me</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam facere animi minima iusto. Quia nam quas nostrum consectetur autem! At nihil molestiae perspiciatis! Tempore laboriosam, dolores illo necessitatibus labore perspiciatis.
+          Saepe distinctio modi ex quod, tenetur iusto quaerat voluptate tempora maxime ipsum nam asperiores iste officia? Omnis est maxime dolor, ratione a dolores, molestias temporibus deserunt voluptatum, distinctio architecto mollitia.</p>
+        </div>
+        <footer>
+            <div>    
+                <p>PROJECT BY DO SOME CODING</p>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
